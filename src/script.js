@@ -33,7 +33,7 @@ function start() {
 		}
 
 		time.innerHTML = moment(duration.asMilliseconds()).format('mm:ss');
-	}, 100);
+	}, 1000);
 }
 
 function removeOrAddButtons() {
