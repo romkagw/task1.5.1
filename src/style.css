@@ -39,12 +39,9 @@ h3 {
 	background-color: #fff;
 	height: 35px;
 	width: 55px;
-	position: relative;
 	margin: 0 50px;
-	box-shadow: 5px 5px 5px -1px rgb(8 8 8 / 50%);
-	border-radius: 5px;
-	cursor: pointer;
-	transition: 0.4s;
+	font-size: 25px;
+  font-weight: 500;
 }
 h3 {
 	text-align: center;
@@ -56,38 +53,20 @@ h3 {
 	cursor: context-menu;
 }
 
-.button-plus:after,
-.button-minus:before,
-.button-plus:before {
-	content: '';
-	display: block;
-	background-color: rgb(0, 0, 0);
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-.button-plus:before {
-	height: 1em;
-	width: 0.2em;
-}
-
-.button-plus:after,
-.button-minus:before {
-	height: 0.2em;
-	width: 1em;
-}
-
 .button-start {
 	color: #fff;
 	font-size: 20px;
 	padding: 7px 21px;
-	background-color: #4caf50;
-	box-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
+	background-color: #40a444;
+
+	
+	
+}
+button{
+  box-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
 	border-radius: 5px;
-	cursor: pointer;
-	transition: 0.4s;
+  cursor: pointer;
+  transition: 0.4s;
 }
 
 button:hover {
