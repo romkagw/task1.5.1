@@ -89,3 +89,7 @@ h3 {
 button:hover {
 	transform: translateY(-4px);
 }
+
+button:active {
+	transform: translateY(3px);
+}
